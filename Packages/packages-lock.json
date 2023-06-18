@@ -1,5 +1,113 @@
 {
   "dependencies": {
+    "com.microsoft.mrtk.core": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.core#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.xr.interaction.toolkit": "2.3.0",
+        "com.unity.xr.management": "4.2.1",
+        "com.unity.xr.core-utils": "2.1.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.extendedassets": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.extendedassets#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.standardassets": "3.0.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.graphicstools.unity": {
+      "version": "git@github.com:playmeld/MixedReality-GraphicsTools-Unity.git?path=/com.microsoft.mrtk.graphicstools.unity#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "bd7fe64d36704db00a212146a10d3938c4c06e86"
+    },
+    "com.microsoft.mrtk.input": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.input#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.core": "3.0.0",
+        "com.microsoft.mrtk.graphicstools.unity": "0.4.0",
+        "com.unity.inputsystem": "1.5.1",
+        "com.unity.xr.arfoundation": "5.0.5",
+        "com.unity.xr.interaction.toolkit": "2.3.0",
+        "com.unity.xr.core-utils": "2.1.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.spatialmanipulation": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.spatialmanipulation#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.core": "3.0.0",
+        "com.microsoft.mrtk.uxcore": "3.0.0",
+        "com.unity.inputsystem": "1.5.1",
+        "com.unity.xr.interaction.toolkit": "2.3.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.standardassets": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.standardassets#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.graphicstools.unity": "0.4.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.tools": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.tools#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.core": "3.0.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.uxcomponents": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.uxcomponents#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.graphicstools.unity": "0.4.0",
+        "com.microsoft.mrtk.uxcore": "3.0.0",
+        "com.microsoft.mrtk.spatialmanipulation": "3.0.0",
+        "com.microsoft.mrtk.standardassets": "3.0.0",
+        "com.unity.xr.interaction.toolkit": "2.3.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.uxcomponents.noncanvas": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.uxcomponents.noncanvas#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.uxcore": "3.0.0",
+        "com.microsoft.mrtk.spatialmanipulation": "3.0.0",
+        "com.microsoft.mrtk.standardassets": "3.0.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
+    "com.microsoft.mrtk.uxcore": {
+      "version": "git@github.com:playmeld/MixedRealityToolkit-Unity.git?path=/com.microsoft.mrtk.uxcore#mrtk3",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.microsoft.mrtk.core": "3.0.0",
+        "com.microsoft.mrtk.graphicstools.unity": "0.4.0",
+        "com.unity.inputsystem": "1.5.1",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.xr.interaction.toolkit": "2.3.0"
+      },
+      "hash": "8351e18cc3e1f227cc5a42d7593042d513b720e1"
+    },
     "com.unity.collab-proxy": {
       "version": "2.0.1",
       "depth": 0,
@@ -61,8 +169,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.5.0",
-      "depth": 1,
+      "version": "1.5.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
@@ -72,6 +180,13 @@
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "2.0.2",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -157,6 +272,48 @@
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arcore": {
+      "version": "5.0.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arfoundation": "5.0.5",
+        "com.unity.xr.core-utils": "2.1.0",
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.modules.androidjni": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arfoundation": {
+      "version": "5.0.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.3.0",
+        "com.unity.xr.core-utils": "2.1.0",
+        "com.unity.xr.management": "4.0.1",
+        "com.unity.ugui": "1.0.0",
+        "com.unity.mathematics": "1.2.5",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.arkit": {
+      "version": "5.0.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.xr.arfoundation": "5.0.5",
+        "com.unity.xr.core-utils": "2.1.0",
+        "com.unity.xr.management": "4.0.1"
       },
       "url": "https://packages.unity.com"
     },
